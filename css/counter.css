@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.counter-container-main {
+  width: 50%;
+  height: 400px;
+  background-color: grey;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.counter-container-main .title {
+  text-transform: uppercase;
+  font-size: 55px;
+  margin: 5px;
+  color: white;
+}
+.counter-container-main .controls {
+  display: flex;
+  align-items: center;
+}
+.counter-container-main .controls img {
+  width: 45px;
+  margin: 20px;
+}
+.counter-container-main .controls img:hover {
+  cursor: pointer;
+}
+.counter-container-main .controls .counter {
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=counter.css.map */
